@@ -1,0 +1,23 @@
+{
+    "name": "get-a-uid",
+    "version": "1.0.0",
+    "description": "Get a Unique ID",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shehjad-dev/unique-id-npm-package.git"
+    },
+    "keywords": [
+        "Unique",
+        "Id"
+    ],
+    "author": "3PointDev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shehjad-dev/unique-id-npm-package/issues"
+    },
+    "homepage": "https://github.com/shehjad-dev/unique-id-npm-package#readme"
+}
