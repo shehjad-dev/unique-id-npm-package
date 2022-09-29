@@ -5,8 +5,8 @@ The one stop solution to get a uniqe id for your use case. Play with it and inte
 ## Use case example in a React Application
 
 ```javascript
-import React, { useStatem, useEffect } from "react";
-import getUID from "get-a-uid";
+import React, { useState, useEffect } from "react";
+import getUID from "get-a-unique-id";
 
 function App() {
     const [uniqueId, setUniqueId] = useState("");
