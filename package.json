@@ -1,5 +1,5 @@
 {
-    "name": "get-a-uid",
+    "name": "get-a-unique-id",
     "version": "1.0.0",
     "description": "Get a Unique ID",
     "main": "index.js",
