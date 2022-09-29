@@ -14,18 +14,9 @@ const getMidPart = () => {
     return midPart;
 };
 const getTailPart = () => {
-    const tailPart1 = performance
-        .now()
-        .toString(36)
-        .replace(".", "")
-        .substring(0, 4);
-    const tailPart2 = performance
-        .now()
-        .toString(36)
-        .replace(".", "")
-        .substring(4);
+    const tailPart = performance.now().toString(36).replace(".", "");
 
-    return tailPart1 + "-" + tailPart2;
+    return tailPart;
 };
 
 module.exports = getUID;
